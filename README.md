@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Leonardo Gonzalez</h1>
 
 
-<img src="https://imgur.com/a/me-XNqVe4Y" alt="About me">
+<img src="[link_de_la_imagen_en_imgur](https://imgur.com/a/me-XNqVe4Y)" />
 
 <h3 align="center">A passionate backend developer from Colombia</h3>
 
