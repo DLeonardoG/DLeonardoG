@@ -4,6 +4,8 @@
 
 - 🌱 I’m currently learning **JavaScript, Java**
 
+[![](https://visitcount.itsvg.in/api?id=DLeonardoG&label=Profile%20Views&color=12&pretty=false)](https://visitcount.itsvg.in)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/leonardo-gonzalez-302321311/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/leonardo-gonzalez-302321311/" height="30" width="40" /></a>
