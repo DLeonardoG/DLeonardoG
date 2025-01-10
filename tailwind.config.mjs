@@ -7,6 +7,11 @@ export default {
 			backgroundImage: {
 				'photo-david': "url('src/assets/testBG.svg')"
 			  },
+			  colors: {
+				grey: {
+					1: '#dadada',
+				  },
+			  },
 		},
 	},
 	plugins: [],

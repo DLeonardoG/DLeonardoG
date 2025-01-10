@@ -2,6 +2,7 @@
 import Header from "../components/header.astro";
 import SquareLines from "../components/square-lines.astro";
 const { title } = Astro.props;
+import SparklesCore from "../components/SparklesCore.tsx";
 ---
 
 <!doctype html>
@@ -31,7 +32,19 @@ const { title } = Astro.props;
     <script src="../assets/css/main.css"></script>
     <Fragment set:html={import.meta.env.HEADER_INJECT} />
   </head>
-  <body class="antialiased bg-white dark:bg-neutral-950">
+  <body class="antialiased bg-grey-1 dark:bg-neutral-950">
+	<SparklesCore
+	client:idle
+	id="tsparticlesfullpage"
+	background="transparent"
+	minSize={0.6}
+	maxSize={1.4}
+	opacity={0.2}
+	particleDensity={100}
+	className="w-full h-full fixed z-0"
+	particleColor="#FFFFFF"
+  />
+	
     <SquareLines />
     <Header />
     <slot />
