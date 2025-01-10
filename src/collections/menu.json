@@ -4,15 +4,15 @@
 		"url": "/"
 	},
 	{
-		"name": "Posts",
-		"url": "/posts"
+		"name": "About me",
+		"url": "/aboutMe"
 	},
 	{
 		"name": "Projects",
-		"url": "/projects"
+		"url": "https://github.com/DLeonardoG?tab=repositories"
 	},
 	{
-		"name": "About",
-		"url": "/about"
+		"name": "Contact",
+		"url": "/contact"
 	}
 ]
