@@ -1,12 +1,6 @@
 ---
+import menus from "../collections/menu.json";
 import Logo from "../components/logo.astro";
-
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
-
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
-const menuItems = t('menu'); 
-console.log(menuItems);
 ---
 
 <!-- This is an invisible div with relative position so that it takes up the height of the menu (because menu is absolute/fixed) -->
@@ -64,17 +58,8 @@ console.log(menuItems);
           >
           </div>
         </div>
-        {Array.isArray(menuItems) &&
-          menuItems.map(menu => (
-            <a
-              href={menu.url}
-              class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out hover:text-neutral-900 dark:hover:text-white sm:py-0 sm:mb-0 md:w-auto"
-            >
-              {menu.name}
-            </a>
-          ))}
-        <!-- {
-          menuItems.map((menu) => {
+        {
+          menus.map((menu) => {
             return (
               <a
                 href={menu.url}
@@ -84,7 +69,7 @@ console.log(menuItems);
               </a>
             )
           })
-        } -->
+        }
       </div>
       <div
         id="darkToggle"
