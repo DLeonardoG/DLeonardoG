@@ -3,10 +3,17 @@ import Header from "../components/header.astro";
 import SquareLines from "../components/square-lines.astro";
 const { title } = Astro.props;
 import SparklesCore from "../components/SparklesCore.tsx";
+
+import LanguagePicker from '../components/LanguagePicker.astro';
+
+const lang = getLangFromUrl(Astro.url);
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+const t = useTranslations(lang);
+
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,7 +55,9 @@ import SparklesCore from "../components/SparklesCore.tsx";
 	
     <SquareLines />
     <Header />
+    <LanguagePicker></LanguagePicker>
     <slot />
+    <div>{t("nav.home")}</div>
     <script src="../assets/js/main.js"></script>
     <Fragment set:html={import.meta.env.FOOTER_INJECT} />
   </body>
