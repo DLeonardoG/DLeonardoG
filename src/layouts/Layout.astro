@@ -1,55 +1,65 @@
 ---
-import Header from "../components/header.astro";
-import SquareLines from "../components/square-lines.astro";
+interface Props {
+	title: string;
+}
+
 const { title } = Astro.props;
-import SparklesCore from "../components/SparklesCore.tsx";
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
 
-    <!-- Used to add dark mode right away, adding here prevents any flicker -->
-    <script is:inline>
-      if (typeof Storage !== 'undefined') {
-        if (
-          localStorage.getItem('dark_mode') &&
-          localStorage.getItem('dark_mode') == 'true'
-        ) {
-          document.documentElement.classList.add('dark')
-        }
-      }
-    </script>
-
-    <style>
-      .prose img {
-        border-radius: 20px;
-      }
-    </style>
-    <script src="../assets/css/main.css"></script>
-    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-    <Fragment set:html={import.meta.env.HEADER_INJECT} />
-  </head>
-  <body class="antialiased bg-grey-1 dark:bg-neutral-950">
-	<SparklesCore
-	client:idle
-	id="tsparticlesfullpage"
-	background="transparent"
-	minSize={0.6}
-	maxSize={1.4}
-	opacity={0.2}
-	particleDensity={100}
-	className="w-full h-full fixed z-0"
-	particleColor="#FFFFFF"
-  />
-	
-    <SquareLines />
-    <Header />
-    <slot />
-    <script src="../assets/js/main.js"></script>
-    <Fragment set:html={import.meta.env.FOOTER_INJECT} />
-  </body>
+		<script is:inline>
+		if (typeof Storage !== 'undefined') {
+			if (
+			localStorage.getItem('dark_mode') &&
+			localStorage.getItem('dark_mode') == 'true'
+			) {
+			document.documentElement.classList.add('dark')
+			}
+		}
+		</script>
+		<script src="../assets/css/main.css"></script>
+		<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+		
+	</head>
+	<body class="antialiased bg-grey-1 dark:bg-neutral-950"></body>
+		<slot />
+		<script src="../assets/js/main.js"></script>
+	</body>
 </html>
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background: #13151a;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>

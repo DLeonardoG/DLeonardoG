@@ -1,26 +1,23 @@
 {
-  "name": "stale-sphere",
+  "name": "@example/basics",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.1.2",
+    "@astrojs/react": "^4.1.3",
     "@astrojs/tailwind": "^5.1.4",
-    "@tsparticles/engine": "^3.7.1",
-    "@tsparticles/react": "^3.0.0",
-    "@tsparticles/slim": "^3.7.1",
-    "@types/react": "^19.0.3",
-    "@types/react-dom": "^19.0.2",
-    "astro": "^5.1.2",
-    "framer-motion": "^11.16.4",
+    "@types/react": "^19.0.5",
+    "@types/react-dom": "^19.0.3",
+    "astro": "^4.15.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^2.6.0",
     "tailwindcss": "^3.4.17"
   }
 }
