@@ -6,11 +6,11 @@ export default {
 		extend: {
 			backgroundImage: {
 				'photo-david': "url('src/assets/testBG.svg')"
-			  },
-			  colors: {
+			},
+			colors: {
 				grey: {
 					1: '#dadada',
-				  },
+			},
 			  },
 		},
 	},

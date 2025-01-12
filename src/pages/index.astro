@@ -2,9 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import LanguagePicker from '../components/LanguagePicker.astro';
-import { ui } from '../i18n/ui';
 import Header from "../components/header.astro";
+import { ui } from '../i18n/ui';
 import Separator from "../components/separator.astro";
+import Projects from "../components/Portfolio.astro";
+import Portfolio from '../components/Portfolio.astro';
 const lang = 'en';  
 const menus = ui[lang].menu;
 
@@ -81,4 +83,5 @@ const menus = ui[lang].menu;
     </div>
   </div>
   <Separator text={ui[lang]['pages.home.separatorProjects']}/>
+  <Portfolio lang ={lang}/>
 </Layout>
