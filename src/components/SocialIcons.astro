@@ -1,0 +1,56 @@
+---
+const { width, height } = Astro.props;
+const socialLinks = [
+  {
+    title: 'LinkedIn',
+    icon: 'simple-icons:linkedin',
+    href: 'https://www.linkedin.com/in/leonardo-gonzalez-302321311/',
+  },
+  {
+    title: 'CV',
+    icon: 'tabler:file-cv',
+    href: '../docs/CV - Leonardo.pdf',
+  },
+  {
+    title: 'GitHub',
+    icon: 'simple-icons:github',
+    href: 'https://github.com/sofidev',
+  },
+];
+---
+
+<div class="flex justify-start items-start gap-8 w-80">
+  {
+    socialLinks.map((data) => (
+      <a
+        href={data.href}
+        target="_blank"
+        rel="nofollow noreferrer noopener"
+        class={`flex items-center justify-center p-2 transition-colors duration-300 rounded-md hover:${data.title}-hover dark:hover:${data.title}-hover`}
+      >
+        <iconify-icon
+          class={`w-${width} h-${height} text-gray-200 dark:text-gray-400 hover:text-${data.title}`}
+          icon={data.icon}
+        />
+      </a>
+    ))
+  }
+</div>
+
+<style>
+  .LinkedIn-hover {
+    color: #0e76a8;
+  }
+  .Instagram-hover {
+    color: #e1306c;
+  }
+  .Twitter-hover {
+    color: #1da1f2;
+  }
+  .CV-hover {
+    color: #8e64ff;
+  }
+  .GitHub-hover {
+    color: #f0f0f0;
+  }
+</style>

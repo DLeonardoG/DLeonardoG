@@ -8,6 +8,7 @@ export default {
 				'photo-david': "url('src/assets/testBG.svg')"
 			},
 			colors: {
+				'muted-foreground': '#6b7280',
 				grey: {
 					1: '#dadada',
 			},

@@ -1,7 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import About from "../components/About/About.astro";
+import Header from "../components/header.astro";
+import { ui } from '../i18n/ui';
+import Separator from "../components/separator.astro";
+const lang = 'en';  
+const menus = ui[lang].menu;
 ---
 
 <Layout title="About David">
- 
+    <Header menus={menus} />
+    <About about1={ui[lang]['pages.aboutMe.description.1']} about2={ui[lang]['pages.aboutMe.description.2']}, about3={ui[lang]['pages.aboutMe.description.3']}/>
 </Layout>

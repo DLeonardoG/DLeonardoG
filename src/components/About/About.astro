@@ -1,0 +1,38 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+
+const { about1 } = Astro.props;
+const { about2 } = Astro.props;
+const { about3 } = Astro.props;
+---
+
+<section id="about" class="py-16 bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-center gap-12 px-6">
+    <!-- Imagen de perfil -->
+    <div class="flex justify-center md:justify-end">
+      <div class="relative group">
+        <img
+          class="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover shadow-md"
+          src="/logos/java.svg"
+          alt="Photo Profile"
+        />
+        <!-- Fondo decorativo artístico -->
+        <div class="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500 opacity-20 blur-md -z-10 group-hover:blur-lg transition-all duration-500"></div>
+      </div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="max-w-2xl text-center md:text-left flex flex-col items-center md:items-start">
+      <h2 class="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">About Me</h2>
+      <p class="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
+        {about1}
+		<br>
+        {about2} <br>
+        {about3}
+      </p>
+
+      <!-- Íconos sociales -->
+	  <SocialIcons width="60" height="60" />
+    </div>
+  </div>
+</section>

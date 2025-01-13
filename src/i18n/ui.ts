@@ -35,60 +35,41 @@ export const ui = {
     'pages.home.separatorProjects': 'Checkout some projects',
     'pages.home.projectsData': [
       {
-        "imgSrc": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png",
-        "title": "Restaurant",
-        "skills": ["React", "StyledComponents"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
+        "imgSrc": "https://raw.githubusercontent.com/DLeonardoG/LittlePets/refs/heads/master/DiagramaER.jpg",
+        "title": "LittlePets",
+        "skills": ["MySQL","Java","Uml"],
+        "descripcion": "This program is designed to manage the operations of a veterinary clinic. Its goal is to provide software that allows administrators, veterinarians, and clinic staff to properly manage animals, owners, consultations, and services provided.",
+        "demoURL": "https://github.com/DLeonardoG/LittlePets",
+        "repoURL": "https://github.com/DLeonardoG/LittlePets",
         "anim": "fade-right"
       },
       {
-        "imgSrc": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg",
-        "title": "E-commerce",
-        "skills": ["JavaScript", "Bootstrap"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-up",
-        "averageBrightness": 0.1
-      },
-      {
-        "imgSrc": "https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png",
-        "title": "Coffe Store",
-        "skills": ["React", "CSS"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-left"
-      },
-      {
-        "imgSrc": "https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500",
-        "title": "Coffe Store",
-        "skills": ["React", "CSS"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-left"
-      },
-      {
-        "imgSrc": "https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png",
-        "title": "Coffe Store",
-        "skills": ["React", "CSS"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-left"
-      },
-      {
-        "imgSrc": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png",
-        "title": "Restaurant",
-        "skills": ["React", "StyledComponents"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
+        "imgSrc": "https://raw.githubusercontent.com/DLeonardoG/DisguiseYourself/refs/heads/main/disfrazateMordia.png",
+        "title": "DisguiseYourself",
+        "skills": ["MySQL","Uml"],
+        "descripcion": "The DisfrazateMor store is a management system designed to facilitate the sale of costumes and related products. The database is intended to store information about products, customers, sales, and transaction history, ensuring an efficient and optimized user experience. The implemented functionalities include sales registration, inventory management, discount control, and tracking of changes in customer and employee information.",
+        "demoURL": "https://github.com/DLeonardoG/DisguiseYourself",
+        "repoURL": "https://github.com/DLeonardoG/DisguiseYourself",
         "anim": "fade-right"
-      }
+      },
+      {
+        "imgSrc": "https://github.com/DLeonardoG/FireStarApp",
+        "title": "FireStarApp",
+        "skills": ["JavaScript","HTML","CSS"],
+        "descripcion": "The FireStarApp project is an e-commerce platform under development, focused on selling Blu-ray movies. It is designed to allow users to view and purchase the latest and best-quality movies at the best prices.",
+        "demoURL": "https://dleonardog.github.io/FireStarApp/",
+        "repoURL": "https://github.com/DLeonardoG/FireStarApp",
+        "anim": "fade-right"
+      },
+      {
+        "imgSrc": "https://github.com/DLeonardoG/Parkifly",
+        "title": "Parkifly",
+        "skills": ["JavaScript","HTML","CSS"],
+        "descripcion": "Parkify is a comprehensive parking management system designed to facilitate the real-time administration of parking spaces. This project is aimed at parking lot owners and managers seeking an efficient and modern solution for controlling and optimizing the use of parking spaces.",
+        "demoURL": "https://dleonardog.github.io/Parkifly/",
+        "repoURL": "https://github.com/DLeonardoG/Parkifly",
+        "anim": "fade-right"
+      },
     ],
     "skillIcons": {
       "JavaScript": "skill-icons:javascript",
@@ -98,9 +79,18 @@ export const ui = {
       "Sass": "skill-icons:sass",
       "StyledComponents": "skill-icons:styledcomponents",
       "Bootstrap": "skill-icons:bootstrap",
-      "Tailwind": "skill-icons:tailwindcss-dark"
+      "Tailwind": "skill-icons:tailwindcss-dark",
+      "HTML": "skill-icons:html",
+      "Java": "devicon:java",
+      "Uml": "arcticons:uml-class-editor",
+      "SpringBoot": "skill-icons:springboot",
+      "MySQL": "skill-icons:mysql-light",
+      "Python": "skill-icons:python"
     },
     'pages.aboutMe.title': 'About David',
+    'pages.aboutMe.description.1': "I specialize in building smart and efficient full-stack solutions, always striving to tackle challenges with clarity and optimize processes seamlessly. My quick adaptability, resourcefulness, and innovative problem-solving skills enable me to design systems that are both scalable and impactful.",
+    'pages.aboutMe.description.2': "I excel in collaborative environments, where sharing ideas and learning from others fuels my drive to take projects to the next level. I'm committed to constant growth, staying flexible, and pushing boundaries to deliver fresh, innovative solutions.",
+    'pages.aboutMe.description.3': "If you’re seeking a full-stack developer who thrives under pressure, delivers results with precision, and leads with confidence, I’m ready to make an impact!",
     'pages.aboutMe.name': 'David Gonzalez',
     'pages.aboutMe.profession': 'FullStack Software Developer',
     'pages.aboutMe.contactButton': 'Get in touch',
@@ -144,61 +134,42 @@ export const ui = {
     'pages.home.separatorProjects': 'Algunos de mis proyectos',
     'pages.home.projectsData': [
       {
-        "imgSrc": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png",
-        "title": "Restaurant",
-        "skills": ["React", "StyledComponents"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
+        "imgSrc": "https://raw.githubusercontent.com/DLeonardoG/LittlePets/refs/heads/master/DiagramaER.jpg",
+        "title": "LittlePets",
+        "skills": ["MySQL", "Java", "Uml"],
+        "descripcion": "Este programa está diseñado para gestionar las operaciones de una clínica veterinaria. Su objetivo es proporcionar un software que permita a administradores, veterinarios y personal de la clínica gestionar correctamente animales, dueños, consultas y los servicios proporcionados.",
+        "demoURL": "https://github.com/DLeonardoG/LittlePets",
+        "repoURL": "https://github.com/DLeonardoG/LittlePets",
         "anim": "fade-right"
       },
       {
-        "imgSrc": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg",
-        "title": "E-commerce",
-        "skills": ["JavaScript", "Bootstrap"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-up",
-        "averageBrightness": 0.1
+        "imgSrc": "https://raw.githubusercontent.com/DLeonardoG/DisguiseYourself/refs/heads/main/disfrazateMordia.png",
+        "title": "DisguiseYourself",
+        "skills": ["MySQL", "Uml"],
+        "descripcion": "La tienda DisfrazateMor es un sistema de gestión diseñado para facilitar la venta de disfraces y productos relacionados. La base de datos está destinada a almacenar información sobre productos, clientes, ventas e historial de transacciones, asegurando una experiencia de usuario eficiente y optimizada. Las funcionalidades implementadas incluyen registro de ventas, gestión de inventarios, control de descuentos y seguimiento de cambios en la información de clientes y empleados.",
+        "demoURL": "https://github.com/DLeonardoG/DisguiseYourself",
+        "repoURL": "https://github.com/DLeonardoG/DisguiseYourself",
+        "anim": "fade-right"
       },
       {
-        "imgSrc": "https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png",
-        "title": "Coffe Store",
-        "skills": ["React", "CSS"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-left"
+        "imgSrc": "https://github.com/DLeonardoG/FireStarApp",
+        "title": "FireStarApp",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "descripcion": "El proyecto FireStarApp es una plataforma de comercio electrónico en desarrollo, enfocada en la venta de películas en formato Blu-ray. Está diseñado para permitir a los usuarios ver y comprar las películas más recientes y de la mejor calidad al mejor precio.",
+        "demoURL": "https://dleonardog.github.io/FireStarApp/",
+        "repoURL": "https://github.com/DLeonardoG/FireStarApp",
+        "anim": "fade-right"
       },
       {
-        "imgSrc": "https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500",
-        "title": "Coffe Store",
-        "skills": ["React", "CSS"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-left"
-      },
-      {
-        "imgSrc": "https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png",
-        "title": "Coffe Store",
-        "skills": ["React", "CSS"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
-        "anim": "fade-left"
-      },
-      {
-        "imgSrc": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png",
-        "title": "Restaurant",
-        "skills": ["React", "StyledComponents"],
-        "descripcion": "Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.",
-        "demoURL": "",
-        "repoURL": "",
+        "imgSrc": "https://github.com/DLeonardoG/Parkifly",
+        "title": "Parkifly",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "descripcion": "Parkify es un sistema integral de gestión de estacionamientos diseñado para facilitar la administración en tiempo real de los espacios de estacionamiento. Este proyecto está dirigido a propietarios y administradores de estacionamientos que buscan una solución eficiente y moderna para controlar y optimizar el uso de los espacios.",
+        "demoURL": "https://dleonardog.github.io/Parkifly/",
+        "repoURL": "https://github.com/DLeonardoG/Parkifly",
         "anim": "fade-right"
       }
-    ],
+    ],    
     "skillIcons": {
       "JavaScript": "skill-icons:javascript",
       "React": "skill-icons:react-dark",
@@ -207,7 +178,13 @@ export const ui = {
       "Sass": "skill-icons:sass",
       "StyledComponents": "skill-icons:styledcomponents",
       "Bootstrap": "skill-icons:bootstrap",
-      "Tailwind": "skill-icons:tailwindcss-dark"
+      "Tailwind": "skill-icons:tailwindcss-dark",
+      "HTML": "skill-icons:html",
+      "Java": "devicon:java",
+      "Uml": "arcticons:uml-class-editor",
+      "SpringBoot": "skill-icons:springboot",
+      "MySQL": "skill-icons:mysql-light",
+      "Python": "skill-icons:python"
     },
     'pages.aboutMe.title': 'Sobre mi',
     'pages.aboutMe.name': 'David Gonzalez',

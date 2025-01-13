@@ -7,6 +7,7 @@ import { ui } from '../i18n/ui';
 import Separator from "../components/separator.astro";
 import Projects from "../components/Portfolio.astro";
 import Portfolio from '../components/Portfolio.astro';
+import Stack from '../components/Stack.astro';
 const lang = 'en';  
 const menus = ui[lang].menu;
 
@@ -84,4 +85,6 @@ const menus = ui[lang].menu;
   </div>
   <Separator text={ui[lang]['pages.home.separatorProjects']}/>
   <Portfolio lang ={lang}/>
+  <Separator text={ui[lang]['pages.home.separatorProjects']}/>
+  <Stack />
 </Layout>
