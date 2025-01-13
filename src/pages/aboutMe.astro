@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import About from "../components/About/About.astro";
 import Header from "../components/header.astro";
+import Vision from "../components/Vision.astro";
 import { ui } from '../i18n/ui';
 import Separator from "../components/separator.astro";
 const lang = 'en';  
@@ -11,4 +12,5 @@ const menus = ui[lang].menu;
 <Layout title="About David">
     <Header menus={menus} />
     <About about1={ui[lang]['pages.aboutMe.description.1']} about2={ui[lang]['pages.aboutMe.description.2']}, about3={ui[lang]['pages.aboutMe.description.3']}/>
+    <Vision mission="Develop tools that blend leadership and collaboration to tackle technological challenges, from projects that empower emerging countries to initiatives that build trust in artificial intelligence as a force for positive change." vision="Create a positive impact through dynamic technological solutions that simplify daily life and processes, fostering a world where digital innovation drives personal and social growth."/>
 </Layout>
