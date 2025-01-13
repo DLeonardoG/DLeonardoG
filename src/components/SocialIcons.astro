@@ -5,16 +5,19 @@ const socialLinks = [
     title: 'LinkedIn',
     icon: 'simple-icons:linkedin',
     href: 'https://www.linkedin.com/in/leonardo-gonzalez-302321311/',
+    hoverColor: 'text-blue-600 dark:text-blue-400', // LinkedIn hover color
   },
   {
     title: 'CV',
     icon: 'tabler:file-cv',
     href: '../docs/CV - Leonardo.pdf',
+    hoverColor: 'text-indigo-600 dark:text-indigo-400', // CV hover color
   },
   {
     title: 'GitHub',
     icon: 'simple-icons:github',
-    href: 'https://github.com/sofidev',
+    href: 'https://github.com/DLeonardoG',
+    hoverColor: 'text-gray-600 dark:text-gray-400', // GitHub hover color
   },
 ];
 ---
@@ -26,31 +29,13 @@ const socialLinks = [
         href={data.href}
         target="_blank"
         rel="nofollow noreferrer noopener"
-        class={`flex items-center justify-center p-2 transition-colors duration-300 rounded-md hover:${data.title}-hover dark:hover:${data.title}-hover`}
+        class="flex items-center justify-center p-3 transition-all duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
       >
         <iconify-icon
-          class={`w-${width} h-${height} text-gray-200 dark:text-gray-400 hover:text-${data.title}`}
+          class={`w-${width} h-${height} text-gray-200 dark:text-gray-400 hover:${data.hoverColor} transition-all duration-300`}
           icon={data.icon}
         />
       </a>
     ))
   }
 </div>
-
-<style>
-  .LinkedIn-hover {
-    color: #0e76a8;
-  }
-  .Instagram-hover {
-    color: #e1306c;
-  }
-  .Twitter-hover {
-    color: #1da1f2;
-  }
-  .CV-hover {
-    color: #8e64ff;
-  }
-  .GitHub-hover {
-    color: #f0f0f0;
-  }
-</style>
