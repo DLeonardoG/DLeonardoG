@@ -14,7 +14,12 @@ const menus = ui[lang].menu;
   <main>
     <Header menus={menus} />
     <div
+<<<<<<< HEAD
     class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+=======
+    class="bg-opacity-30 bg-white dark:bg-black dark:bg-opacity-30 relative z-20 max-w-5xl mx-auto mt-16 px-10 py-10 rounded-lg shadow-md md:mt-20 lg:mt-8 xl:px-8 border border-neutral-300 dark:border-neutral-700"
+
+>>>>>>> e6722d5 (style: :lipstick: the index has been updated to match the background)
   >
     <div class=" flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
@@ -25,19 +30,17 @@ const menus = ui[lang].menu;
           class="flex lg:items-start gap-4 flex-col lg:flex-row items-center text-center lg:text-left"
         >
           <div>
-            <a
-              href="/"
-              class="text-4xl lg:text-7xl block font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
-            >
+            <div
+              class="text-4xl lg:text-7xl block font-bold tracking-tight bg-clip-text text-transparent dark:bg-gradient-to-b dark:from-neutral-50 dark:to-neutral-400 bg-gradient-to-b from-neutral-800 to-neutral-900 bg-opacity-50">
               <h1>David Gonzalez</h1>
-            </a>
-            <h2 class="mt-2 text-sm lg:text-2xl font-medium text-neutral-400">
+          </div>
+            <h2 class="mt-2 text-sm lg:text-2xl font-medium text-black dark:text-neutral-400">
               {ui[lang]['pages.home.profession']}
             </h2>
 
             <a
               href="./contact"
-              class="inline-flex transition-all border-neutral-700 hover:border-opacity-0 border-opacity-50 shadow rounded-md border backdrop-blur-xl bg-neutral-400/10 px-3 py-2.5 items-center text-white font-semibold group p-2 text-sm gap-x-2 mt-4"
+              class="inline-flex transition-all border-neutral-700 hover:border-opacity-0 border-opacity-50 shadow rounded-md border backdrop-blur-xl bg-gray-100  dark:bg-neutral-400/10 px-3 py-2.5 items-center dark:text-white text-black font-semibold group p-2 text-sm gap-x-2 mt-4"
             >
               <span>{ui[lang]['pages.home.contactButton']}</span>
               <sapn
@@ -66,7 +69,7 @@ const menus = ui[lang].menu;
           </div>
           <div class="relative z-30 px-10">
             <img
-              src="https://static.vecteezy.com/system/resources/previews/027/928/262/non_2x/half-body-portrait-of-a-handsome-man-wearing-a-blue-shirt-isolated-on-transparent-background-businessman-realistic-photo-cut-out-generative-ai-png.png"
+              src="/fullBody.png"
               loading="eager"
               decoding="auto"
               class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto dark:-translate-y-0.5"
