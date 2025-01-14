@@ -33,11 +33,12 @@ import InteractiveBubble from '../components/bubles/InteractiveBubble';
 		
 	</head>
 	<!-- <body class="antialiased bg-grey-1 dark:bg-neutral-950"></body> -->
-	<body style="position: relative; z-index: 0;">
+	<body style="">
 		<InteractiveBubble client:only="react" />
-		<main class="z-10 relative top-0">
+		<main class="">
+
 			<slot />
-			<Footer></Footer>	
+				<Footer></Footer>	
 		</main>
 		<script src="../assets/js/main.js"></script>
 	</body>
