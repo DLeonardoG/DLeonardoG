@@ -13,6 +13,9 @@ export default {
 					1: '#dadada',
 			},
 			  },
+			  backdropBlur: {
+				x4l: '150px',
+			  }
 		},
 	},
 	plugins: [],

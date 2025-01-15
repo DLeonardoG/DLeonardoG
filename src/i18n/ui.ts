@@ -25,7 +25,6 @@ export const ui = {
     'menu': [
       { 'name': 'Home', 'url': '/' },
       { 'name': 'About me', 'url': '/aboutMe' },
-      { 'name': 'Projects', 'url': 'https://github.com/DLeonardoG?tab=repositories' },
       { 'name': 'Contact', 'url': '/contact' }
     ],
     'menu.dark': 'Dark mode',

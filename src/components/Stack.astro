@@ -17,6 +17,49 @@ const backendLogos = [
   { src: "/logos/postgresql.svg", alt: "PostgreSQL Logo" },
 ];
 ---
+<section
+  class="md:py-20 relative w-full text-center flex flex-col justify-center items-center gap-5 px-4 pt-0 sm:pb-24"
+>
+  <div class="section-container">
+    <h3 class="pb-3 text-3xl sm:text-4xl md:text-4xl font-semibold text-black text-center dark:text-white mb-6">
+      Frontend
+    </h3>
+    
+    <div class="column">
+      {frontendLogos.map((logo) => (
+        <div class="logo-container  bg-white bg-opacity-20 dark:bg-black dark:bg-opacity-20 hover:bg-transparent hover:backdrop-blur-3xl">
+          <Image
+            src={logo.src}
+            alt={logo.alt}
+            width={80}
+            height={80}
+            loading="eager"
+            class="object-contain"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+  <div class="section-container">
+    <h3 class="text-3xl sm:text-4xl md:text-4xl font-semibold text-black text-center dark:text-white mb-6">
+      Backend
+    </h3>
+    <div class="column">
+      {backendLogos.map((logo) => (
+        <div class="logo-container bg-white bg-opacity-20 dark:bg-black dark:bg-opacity-20 hover:bg-transparent hover:backdrop-blur-3xl">
+          <Image
+            src={logo.src}
+            alt={logo.alt}
+            width={80}
+            height={80}
+            loading="eager"
+            class="object-contain"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
 <style>
   .section-container {
@@ -49,7 +92,6 @@ const backendLogos = [
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.05);
     border-radius: 50%;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
   }
@@ -72,52 +114,3 @@ const backendLogos = [
     }
   }
 </style>
-<section
-  class="md:py-20 relative w-full text-center flex flex-col justify-center items-center gap-5 px-4 pt-0 sm:pb-24"
->
-<h2 class="w-full max-w-3xl sm:text-left text-3xl sm:text-4xl md:text-5xl font-bold text-black tracking-tight dark:text-white">
-  Skills
-</h2>
-
-
-
-  <div class="section-container">
-    <h3 class="pb-3 text-3xl sm:text-4xl md:text-4xl font-semibold text-black text-center dark:text-white mb-6">
-      Frontend
-    </h3>
-    
-    <div class="column">
-      {frontendLogos.map((logo) => (
-        <div class="logo-container">
-          <Image
-            src={logo.src}
-            alt={logo.alt}
-            width={80}
-            height={80}
-            loading="eager"
-            class="object-contain"
-          />
-        </div>
-      ))}
-    </div>
-  </div>
-  <div class="section-container">
-    <h3 class="text-3xl sm:text-4xl md:text-4xl font-semibold text-black text-center dark:text-white mb-6">
-      Backend
-    </h3>
-    <div class="column">
-      {backendLogos.map((logo) => (
-        <div class="logo-container">
-          <Image
-            src={logo.src}
-            alt={logo.alt}
-            width={80}
-            height={80}
-            loading="eager"
-            class="object-contain"
-          />
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
