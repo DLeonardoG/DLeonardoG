@@ -1,22 +1,22 @@
 ---
-const { mission, vision } = Astro.props;
+const { mission,missionTitle, visionTitle,vision, missionAnd } = Astro.props;
 ---
 
-<section id="mision-vision" class="py-16 bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+<section id="mision-vision" class="py-16 ">
   <div class="container mx-auto px-6">
     <!-- Título -->
-    <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8 text-center">Misión y Visión</h2>
+    <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8 text-center">{missionAnd}</h2>
 
     <!-- Misión -->
-    <div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg mb-6">
-      <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">Misión</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-lg">{mission}</p>
+    <div class="backdrop-blur-3xl p-8 rounded-lg shadow-lg mb-6">
+      <h3 class="text-xl font-semibold text-black dark:text-white mb-4">{missionTitle}</h3>
+      <p class="text-black dark:text-white text-lg">{mission}</p>
     </div>
 
     <!-- Visión -->
-    <div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-      <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">Visión</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-lg">{vision}</p>
+    <div class="backdrop-blur-3xl p-8 rounded-lg shadow-lg mb-6">
+      <h3 class="text-xl font-semibold text-black dark:text-white mb-4">{visionTitle}</h3>
+      <p class="text-black dark:text-white text-lg">{vision}</p>
     </div>
   </div>
 </section>

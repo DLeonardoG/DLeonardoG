@@ -7,6 +7,7 @@ import Portfolio from '../components/Portfolio.astro';
 import Stack from '../components/Stack.astro';
 const lang = 'en';  
 const menus = ui[lang].menu;
+import SocialIcons from '../components/SocialIcons.astro';
 
 ---
 
@@ -14,12 +15,8 @@ const menus = ui[lang].menu;
   <main>
     <Header menus={menus} />
     <div
-<<<<<<< HEAD
-    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
-=======
-    class="bg-opacity-30 bg-white dark:bg-black dark:bg-opacity-30 relative z-20 max-w-5xl mx-auto mt-16 px-10 py-10 rounded-lg shadow-md md:mt-20 lg:mt-8 xl:px-8 border border-neutral-300 dark:border-neutral-700"
+    class="relative z-20 max-w-5xl mx-auto mt-16 px-10 py-10 md:mt-20 lg:mt-8 xl:px-8"
 
->>>>>>> e6722d5 (style: :lipstick: the index has been updated to match the background)
   >
     <div class=" flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
@@ -47,7 +44,8 @@ const menus = ui[lang].menu;
                 class="w-2 h-2 rounded-full bg-green-400 duration-1000 animate-pulse"
               >
               </sapn>
-            </a>
+            </a>           
+              <SocialIcons width="30" height="30" />
           </div>
         </div>
       </div>
@@ -85,6 +83,6 @@ const menus = ui[lang].menu;
   </div>
   <Separator text={ui[lang]['pages.home.separatorProjects']}/>
   <Portfolio lang ={lang}/>
-  <Separator text={ui[lang]['pages.home.separatorProjects']}/>
+  <Separator text={ui[lang]['pages.home.separatorSkills']}/>
   <Stack />
 </Layout>

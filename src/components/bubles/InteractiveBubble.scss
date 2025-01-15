@@ -21,7 +21,7 @@ html, body {
     text-shadow: 1px 1px rgba(0,0,0,0.1);
   }
   
-  :root {
+  html {
     --color-bg1: rgb(108, 0, 162);
     --color-bg2: rgb(0, 17, 82);
     --color1: 18, 113, 255;
@@ -33,6 +33,20 @@ html, body {
     --circle-size: 80%;
     --blending: hard-light;
   }
+
+  html.dark {
+    --color-bg1: rgb(30, 50, 90);  // Azul profundo
+    --color-bg2: rgb(50, 70, 150);  // Azul más saturado para dar más dinamismo
+    --color1: 180, 240, 255;  // Azul claro, mantiene una sensación de claridad
+    --color2: 100, 180, 255;  // Azul suave pero vibrante
+    --color3: 150, 200, 255;  // Azul brillante y fresco
+    --color4: 255, 140, 200;  // Rosa suave para un toque de contraste cálido
+    --color5: 180, 220, 255;  // Azul suave con un toque frío
+    --color-interactive: 100, 150, 255;  // Azul claro para interactividad
+    --circle-size: 80%;
+    --blending: overlay;  // Cambié el blend mode para suavizar las transiciones
+  }
+  
   
   @keyframes moveInCircle {
     0% {
