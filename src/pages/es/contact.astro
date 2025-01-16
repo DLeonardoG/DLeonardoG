@@ -1,12 +1,14 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import LanguagePicker from '../../components/LanguagePicker.astro';
-
+import Contacto from "../../components/Contact.astro";
+import Header from "../../components/header.astro";
+import { ui } from '../../i18n/ui';
+const lang = 'es';  
+const menus = ui[lang].menu;
 ---
-
-<Layout title="Contact David">
+<Layout title="Contacto">
  <div>
-    holaa bith
+   <Header menus={menus} />
+    <Contacto welcomePhrase={ui[lang]['pages.contact.welcomePhrase']} name={ui[lang]['pages.contact.form.name']} phrase={ui[lang]['pages.contact.form.phrase']} button={ui[lang]['pages.contact.form.button']}/>
  </div>
- <LanguagePicker />
 </Layout>

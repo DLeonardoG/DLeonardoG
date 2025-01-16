@@ -1,9 +1,8 @@
 ---
-const { welcomePhrase,second , name, phrase, button} = Astro.props;
+const { welcomePhrase, name, phrase, button} = Astro.props;
 ---
-<article id="contact1" class="mt-[150px] flex flex-col justify-center items-center">
+<article id="contact1" class="mt-10 flex flex-col justify-center items-center">
   <h1 class="flex items-center justify-center text-[clamp(1rem,0.6774rem+3.7936vw,5rem)]">{welcomePhrase}</h1>
-  <p>{second}</p>
   <form
     target="_blank"
     action="https://formsubmit.co/darkleonardog@gmail.com"
@@ -55,10 +54,11 @@ const { welcomePhrase,second , name, phrase, button} = Astro.props;
 
 <article id="contact2" class="flex justify-center items-center mb-[150px]">
   <a
-    class="text-[clamp(1rem,0.6774rem+3.7936vw,6rem)] text-center no-underline hover:underline"
+    class="text-base md:text-2xl mt-10 text-center no-underline hover:underline"
     href="mailto:darkleonardog@gmail.com"
   >
-    darkleonardog@gmail.com
+  <span>or you can send me an email</span><br>
+    <span class="text-xl">darkleonardog@gmail.com</span>
   </a>
 </article>
 

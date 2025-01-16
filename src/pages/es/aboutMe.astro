@@ -1,7 +1,17 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import About from "../../components/About/About.astro";
+import Header from "../../components/header.astro";
+import Vision from "../../components/Vision.astro";
+import { ui } from '../../i18n/ui';
+const lang = 'es';  
+const menus = ui[lang].menu;
 ---
 
-<Layout title="Sobre David">
- 
+<Layout title="Sobre mi">
+    <Header menus={menus} />
+    <About about1={ui[lang]['pages.aboutMe.description.1']} about2={ui[lang]['pages.aboutMe.description.2']}, about3={ui[lang]['pages.aboutMe.description.3']} aboutTitle={ui[lang]['pages.aboutMe.titleM']}/>
+    <Vision missionTitle={ui[lang]['pages.aboutMe.mission']} mission={ui[lang]['pages.aboutMe.mission.text']} visionTitle={ui[lang]['pages.aboutMe.vision']} missionAnd={ui[lang]['pages.aboutMe.visionMission']} vision={ui[lang]['pages.aboutMe.vision.text']}/>
 </Layout>
+
+

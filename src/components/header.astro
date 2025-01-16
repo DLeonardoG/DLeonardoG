@@ -17,9 +17,9 @@ const { menus } = Astro.props;
 
 <!-- This is an invisible div with relative position so that it takes up the height of the menu (because menu is absolute/fixed) -->
 <div class="relative w-full h-20 opacity-0 pointer-events-none"></div>
-<header id="header" class="absolute top-0 z-50 w-full h-20">
+<header id="header" class="absolute top-0 md:top-3  lg:top-3  lx:top-3 z-50 w-full h-20">
   <div
-    class="flex items-center justify-between h-full max-w-5xl pl-6 pr-4 mx-auto border-b border-l-0 border-r-0 border-transparent select-none lg:border-r lg:border-l lg:rounded-b-xl"
+    class="flex items-center justify-between h-full max-w-5xl pl-6 pr-4 mx-auto border-b border-l-0 border-r-0 border-transparent select-none lg:border-r lg:border-l lg:rounded-xl"
   >
     <Logo name="David" />
     <div
@@ -73,7 +73,7 @@ const { menus } = Astro.props;
         {menus.map((menu) => (
           <a
             href={menu.url}
-            class="relative flex items-center justify-center w-full px-3 py-2 font-bold tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white"
+            class="relative flex items-center justify-center w-full px-3 py-2 font-bold tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-black dark:hover:text-white"
           >
             {menu.name}
           </a>
