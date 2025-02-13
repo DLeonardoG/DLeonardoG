@@ -42,7 +42,10 @@ Welcome to my GitHub profile! I'm a passionate Fullstack Developer with expertis
 
 ## 📈 GitHub Stats
 
-![Snake animation](https://github.com/DLeonardoG/DLeonardoG/blob/output/github-contribution-grid-snake.svg)
+
+<p align = "center">
+	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
+</p>
 
 ---
 
@@ -53,10 +56,3 @@ Welcome to my GitHub profile! I'm a passionate Fullstack Developer with expertis
 ---
 
 ⭐️ Feel free to explore my repositories and don't hesitate to reach out if you'd like to collaborate or have any questions!
-
-
-
-
-<p align = "center">
-	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
-</p>
