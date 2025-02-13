@@ -51,7 +51,9 @@ Welcome to my GitHub profile! I'm a passionate Fullstack Developer with expertis
 
 ## 📫 Let's Connect!
 
-- <a href="https://www.linkedin.com/in/leonardo-gonzalez-302321311/" target="_blank">LinkedIn</a>
+<a href="https://www.linkedin.com/in/leonardo-gonzalez-302321311/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+</a>
 
 ---
 
