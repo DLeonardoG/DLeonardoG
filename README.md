@@ -18,3 +18,10 @@
 
 
 [![](https://visitcount.itsvg.in/api?id=DLeonardoG&label=Profile%20Views&color=0&icon=7&pretty=false)](https://visitcount.itsvg.in)
+
+
+
+
+<p align = "center">
+	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
+</p>
